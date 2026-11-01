@@ -225,7 +225,7 @@ bool smap_is_valid(smap_t* smap, uint64_t handle) {
 
     if (smap->mode == SMAP_DENSE) {
         if (v_dense_idx >= 0 && v_dense_idx < smap->_int.h_cnt) {
-            if (smap->_int.rev_map[v_dense_idx].idx = v_slot_idx) {
+            if (smap->_int.rev_map[v_dense_idx].idx == v_slot_idx) {
                 return true;
             }
         }
