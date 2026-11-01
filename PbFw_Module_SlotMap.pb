@@ -19,13 +19,14 @@
 ; AUTHOR   :  Stefan Maag
 ; COAUTHOR :  AI Assistant
 ; DATE     :  2026/10/23
-; VERSION  :  0.55 Verified Developer Preview (Syntax Error Free)
+; VERSION  :  0.6 Verified Developer Preview (pretested ok)
 ; COMPILER :  PureBasic 6.0 and higher (ASM and C-Backend )
 ; OS       :  All (Windows, Linux, MacOS)
 ; LICENCE  :  MIT License see https://opensource.org/license/mit/
 ;             or \PbFramWork\MitLicence.txt
 ; ===========================================================================
 ;{ ChangeLog: 
+;  2026/11/01 S.Maag solved hotswap stay compact at ConvertToSparse
 ;  2026/10/25 S.Maag solved bugs! Added sort and filter functions
 ;}
 ;{ TODO!
@@ -1425,8 +1426,7 @@ CompilerIf #PB_Compiler_IsMainFile
 CompilerEndIf
 
 ; IDE Options = PureBasic 6.41 (Windows - x64)
-; CursorPosition = 1356
-; FirstLine = 1226
+; CursorPosition = 21
 ; Folding = 8-----
 ; DPIAware
 ; CPU = 5
