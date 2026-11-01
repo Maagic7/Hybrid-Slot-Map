@@ -1,5 +1,6 @@
-# Force GitHub to recognize the extension files correctly
-*.c linguist-language=C
-*.h linguist-language=C
-*.pb linguist-language=PureBasic
+# Tell GitHub to exclude the PureBasic code from language statistics
+*.pb linguist-detectable=false
 
+# Keep C files as the primary language driver
+*.c linguist-detectable=true
+*.h linguist-detectable=true
