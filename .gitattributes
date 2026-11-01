@@ -1,0 +1,6 @@
+# Force GitHub to recognize the extension files correctly
+*.c linguist-language=C
+*.h linguist-language=C
+*.pb linguist-language=PureBasic
+
+# Optional: If you want to view the full language breakdown in the bar
