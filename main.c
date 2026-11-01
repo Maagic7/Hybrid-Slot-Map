@@ -1,7 +1,7 @@
 
 // ===========================================================================
 //  FILE: main.c (PART 1 - LIFECYCLE & CORE TESTS - C99 COMPLIANT)
-//  DESC: Full verification suite for the Hybrid Slot Map Engine.
+//  DESC: Full verification suite for the Hybrid Slot Map Engine
 // ===========================================================================
 
 #include "hybrid_slotmap.h"
